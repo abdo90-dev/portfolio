@@ -101,7 +101,7 @@ function App() {
           <div className="md:w-1/2 flex justify-center">
             <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white shadow-lg">
               <img 
-                src="/src/source/abdohad.jpg"                 alt="Abdelhak Haddadi" 
+                src="/abdohad.jpg"                 alt="Abdelhak Haddadi" 
                 className="w-full h-full object-cover"
               />
             </div>
@@ -162,7 +162,7 @@ function App() {
                   <Linkedin size={18} className="mr-2" /> LinkedIn
                 </a>
                 <a 
-                  href="/src/source/ABDELHAK_HADDADI_CV (3).pdf" 
+                  href="../public/ABDELHAK_HADDADI_CV (3).pdf" 
                   download
                   className="border border-blue-600 text-blue-600 px-4 py-2 rounded-md font-semibold hover:bg-blue-600 hover:text-white transition"
                 >
