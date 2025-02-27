@@ -162,7 +162,7 @@ function App() {
                   <Linkedin size={18} className="mr-2" /> LinkedIn
                 </a>
                 <a 
-                  href="../public/ABDELHAK_HADDADI_CV (3).pdf" 
+                  href="/ABDELHAK_HADDADI_CV (3).pdf" 
                   download
                   className="border border-blue-600 text-blue-600 px-4 py-2 rounded-md font-semibold hover:bg-blue-600 hover:text-white transition"
                 >
