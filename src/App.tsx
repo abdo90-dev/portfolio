@@ -162,7 +162,7 @@ function App() {
                   <Linkedin size={18} className="mr-2" /> LinkedIn
                 </a>
                 <a 
-                  href="/ABDELHAK_HADDADI_CV (3).pdf" 
+                  href="/CV_2025-09-19_Abdelhak_haddadi.pdf" 
                   download
                   className="border border-blue-600 text-blue-600 px-4 py-2 rounded-md font-semibold hover:bg-blue-600 hover:text-white transition"
                 >
@@ -457,42 +457,7 @@ function App() {
                 </ul>
               </div>
               
-              <div className="relative border-l-2 border-blue-500 pl-8">
-                <div className="absolute -left-2 top-0 w-4 h-4 rounded-full bg-blue-500"></div>
-                <div className="mb-4">
-                  <h4 className="text-xl font-semibold">développeur web full stack</h4>
-                  <p className="text-gray-600 italic">projet d'étude | 10.2022 - 07.2023</p>
-                </div>
-                <ul className="text-gray-700 list-disc ml-4">
-                  <li>Spring Security pour l'authentification des utilisateurs et le
-                  contrôle d'accès basé sur les rôles.</li>
-                  <li>WebSocket pour la fonctionnalité de chat en temps réel entre
-                  les clients et les administrateurs.</li>
-                  <li> Un traducteur de chatbot utilisant l'API DeepL pour des
-                  services de traduction instantanée.</li>
-                  <li>Hibernate et SQL Server pour la gestion de base de données
-                  et le stockage de documents.</li>
-                  <li>Un système de notification pour alerter les administrateurs
-                  des nouve les demandes de traduction.</li>
-                  </ul>
-                  <div className="flex space-x-3">
-                  <a 
-                    href="https://github.com/abdo90-dev/fullstuck" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="text-gray-700 hover:text-gray-900 flex items-center"
-                  >
-                    <GitHub size={16} className="mr-1" /> GitHub
-                  </a>
-                  <a 
-                    href="https://traduction-dkc2.onrender.com" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="text-blue-600 hover:text-blue-800 flex items-center"
-                  >
-                    <ExternalLink size={16} className="mr-1" /> Live Demo
-                  </a>
-                </div></div>
+    
             </div>
             
             {/* Education */}
@@ -542,18 +507,25 @@ function App() {
                   className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
                 />
               </div>
-              <div className="p-6">
+                <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2">Système d'administration scolaire</h3>
                 <p className="text-gray-600 mb-4">
-                Un système de gestion scolaire complet construit avec Next.js, Firebase.
+                Un système de gestion scolaire complet construit avec React.js, Firebase.<br></br>
+                admin:<br></br>
+ 
+              haddadiabdelhak64@gmail.com<br></br>
+              Callman1234<br></br>
+              utilisateur:<br></br>
+khalid.mokhtar@example.com<br></br>
+Callman1234
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <span className="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded">Next.js</span>
+                  <span className="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded">React.js</span>
                   <span className="bg-yellow-100 text-yellow-800 text-xs font-medium px-2.5 py-0.5 rounded">Firebase</span>
                 </div>
                 <div className="flex space-x-3">
                   <a 
-                    href="https://nextjs-project-ten-gamma.vercel.app/" 
+                    href="https://ecole-v2.vercel.app" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="text-blue-600 hover:text-blue-800 flex items-center"
@@ -561,7 +533,7 @@ function App() {
                     <ExternalLink size={16} className="mr-1" /> Live Demo
                   </a>
                   <a 
-                    href="https://github.com/abdo90-dev/ecole-administration" 
+                    href="https://github.com/abdo90-dev/ecole-v2" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="text-gray-700 hover:text-gray-900 flex items-center"
